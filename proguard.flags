@@ -1,0 +1,71 @@
+-keep class launcher3_1.allapps.AllAppsBackgroundDrawable {
+  public void setAlpha(int);
+  public int getAlpha();
+}
+
+-keep class launcher3_1.BaseRecyclerViewFastScrollBar {
+  public void setThumbWidth(int);
+  public int getThumbWidth();
+  public void setTrackWidth(int);
+  public int getTrackWidth();
+}
+
+-keep class launcher3_1.BaseRecyclerViewFastScrollPopup {
+  public void setAlpha(float);
+  public float getAlpha();
+}
+
+-keep class launcher3_1.BubbleTextView {
+  public void setFastScrollFocus(float);
+  public float getFastScrollFocus();
+}
+
+-keep class launcher3_1.ButtonDropTarget {
+  public int getTextColor();
+}
+
+-keep class launcher3_1.CellLayout {
+  public float getBackgroundAlpha();
+  public void setBackgroundAlpha(float);
+}
+
+-keep class launcher3_1.CellLayout$LayoutParams {
+  public void setWidth(int);
+  public int getWidth();
+  public void setHeight(int);
+  public int getHeight();
+  public void setX(int);
+  public int getX();
+  public void setY(int);
+  public int getY();
+}
+
+-keep class launcher3_1.DragLayer$LayoutParams {
+  public void setWidth(int);
+  public int getWidth();
+  public void setHeight(int);
+  public int getHeight();
+  public void setX(int);
+  public int getX();
+  public void setY(int);
+  public int getY();
+}
+
+-keep class launcher3_1.FastBitmapDrawable {
+  public int getBrightness();
+  public void setBrightness(int);
+}
+
+-keep class launcher3_1.MemoryDumpActivity {
+  *;
+}
+
+-keep class launcher3_1.PreloadIconDrawable {
+  public float getAnimationProgress();
+  public void setAnimationProgress(float);
+}
+
+-keep class launcher3_1.Workspace {
+  public float getBackgroundAlpha();
+  public void setBackgroundAlpha(float);
+}
