@@ -29,6 +29,13 @@
         android:label="@string/permlab_install_shortcut"
         android:description="@string/permdesc_install_shortcut" />
     <permission
+        android:name="com.android.simplo_launcher3.permission.RECEIVE_LAUNCH_BROADCASTS"
+        android:protectionLevel="signature"
+        />
+    <permission
+        android:name="com.android.simplo_launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST"
+        android:protectionLevel="signatureOrSystem" />
+    <permission
         android:name="com.android.simplo_launcher3.permission.READ_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
@@ -40,13 +47,6 @@
         android:protectionLevel="signatureOrSystem"
         android:label="@string/permlab_write_settings"
         android:description="@string/permdesc_write_settings"/>
-    <permission
-        android:name="com.android.simplo_launcher3.permission.RECEIVE_LAUNCH_BROADCASTS"
-        android:protectionLevel="signature"
-        />
-    <permission
-        android:name="com.android.simplo_launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST"
-        android:protectionLevel="signatureOrSystem" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
@@ -60,8 +60,10 @@
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
     <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="com.android.launcher3.permission.RECEIVE_LAUNCH_BROADCASTS" />
-    <uses-permission android:name="com.android.launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST" />
+    <uses-permission android:name="com.android.simplo_launcher3.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.simplo_launcher3.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.simplo_launcher3.permission.RECEIVE_LAUNCH_BROADCASTS" />
+    <uses-permission android:name="com.android.simplo_launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST" />
 
     <application
         android:allowBackup="@bool/enable_backup"
@@ -187,8 +189,8 @@
             android:name="com.android.simplo_launcher3.LauncherProvider"
             android:authorities="com.android.simplo_launcher3.settings"
             android:exported="true"
-            android:writePermission="com.android.launcher3.permission.WRITE_SETTINGS"
-            android:readPermission="com.android.launcher3.permission.READ_SETTINGS" />
+            android:writePermission="com.android.simplo_launcher3.permission.WRITE_SETTINGS"
+            android:readPermission="com.android.simplo_launcher3.permission.READ_SETTINGS" />
 
         <meta-data android:name="android.nfc.disable_beam_default"
                        android:value="true" />

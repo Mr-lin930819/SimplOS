@@ -5,229 +5,27 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c66083-0feb-4c6e-8ab0-12788140393a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/AlphaDisableableButton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/CheckableFrameLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/CropView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/DrawableTileSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/LauncherWallpaperPickerActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/LiveWallpaperListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/SavedWallpaperImages.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/ThirdPartyWallpaperPickerListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/WallpaperCropActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/WallpaperPickerActivity.java" afterPath="" />
+    <list default="true" id="d338de7d-305a-4cb5-810f-8cf44d0d126a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_0_0_alpha2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_0_0_alpha2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0_alpha2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0_alpha2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/AndroidManifest.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/res/layout/actionbar_set_wallpaper.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/res/layout/actionbar_set_wallpaper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_cropper.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_cropper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_image_picker_item.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_image_picker_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_item.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_live_wallpaper_item.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_live_wallpaper_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_third_party_item.xml" afterPath="$PROJECT_DIR$/WallpaperPicker/res/layout/wallpaper_picker_third_party_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/gallery3d/glrenderer/UploadedTexture.java" afterPath="$PROJECT_DIR$/WallpaperPicker/src/com/android/gallery3d/glrenderer/UploadedTexture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/photos/views/TiledImageRenderer.java" afterPath="$PROJECT_DIR$/WallpaperPicker/src/com/android/photos/views/TiledImageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/photos/views/TiledImageView.java" afterPath="$PROJECT_DIR$/WallpaperPicker/src/com/android/photos/views/TiledImageView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard.flags" afterPath="$PROJECT_DIR$/proguard.flags" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/backup.proto" afterPath="$PROJECT_DIR$/protos/backup.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/launcher.xml" afterPath="$PROJECT_DIR$/res/layout-land/launcher.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/launcher.xml" afterPath="$PROJECT_DIR$/res/layout-port/launcher.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-sw720dp/launcher.xml" afterPath="$PROJECT_DIR$/res/layout-sw720dp/launcher.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/all_apps.xml" afterPath="$PROJECT_DIR$/res/layout/all_apps.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/all_apps_container.xml" afterPath="$PROJECT_DIR$/res/layout/all_apps_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/all_apps_icon.xml" afterPath="$PROJECT_DIR$/res/layout/all_apps_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/all_apps_prediction_bar_icon.xml" afterPath="$PROJECT_DIR$/res/layout/all_apps_prediction_bar_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/all_apps_search_bar.xml" afterPath="$PROJECT_DIR$/res/layout/all_apps_search_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/app_icon.xml" afterPath="$PROJECT_DIR$/res/layout/app_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/folder_application.xml" afterPath="$PROJECT_DIR$/res/layout/folder_application.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/folder_icon.xml" afterPath="$PROJECT_DIR$/res/layout/folder_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/hotseat.xml" afterPath="$PROJECT_DIR$/res/layout/hotseat.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/launcher_overlay.xml" afterPath="$PROJECT_DIR$/res/layout/launcher_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/page_indicator.xml" afterPath="$PROJECT_DIR$/res/layout/page_indicator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/page_indicator_marker.xml" afterPath="$PROJECT_DIR$/res/layout/page_indicator_marker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/search_drop_target_bar.xml" afterPath="$PROJECT_DIR$/res/layout/search_drop_target_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/user_folder.xml" afterPath="$PROJECT_DIR$/res/layout/user_folder.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/widget_cell.xml" afterPath="$PROJECT_DIR$/res/layout/widget_cell.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/widgets_list_row_view.xml" afterPath="$PROJECT_DIR$/res/layout/widgets_list_row_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/widgets_view.xml" afterPath="$PROJECT_DIR$/res/layout/widgets_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/workspace_screen.xml" afterPath="$PROJECT_DIR$/res/layout/workspace_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/config.xml" afterPath="$PROJECT_DIR$/res/values/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Launcher3.iml" afterPath="$PROJECT_DIR$/Launcher3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/AndroidManifest.xml" afterPath="$PROJECT_DIR$/tests/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/com/android/launcher3/InvariantDeviceProfileTest.java" afterPath="$PROJECT_DIR$/tests/src/com/android/launcher3/InvariantDeviceProfileTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/com/android/launcher3/util/FocusLogicTest.java" afterPath="$PROJECT_DIR$/tests/src/com/android/launcher3/util/FocusLogicTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/com/android/launcher3/DecoderRing.java" afterPath="$PROJECT_DIR$/util/com/android/launcher3/DecoderRing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/etc/manifest.txt" afterPath="$PROJECT_DIR$/util/etc/manifest.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WallpaperPicker/src/com/android/launcher3/base/BaseActivity.java" afterPath="$PROJECT_DIR$/WallpaperPicker/src/com/android/simplo_launcher3/base/BaseActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Alarm.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Alarm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/AllAppsList.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/AllAppsList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/AppFilter.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/AppFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/AppInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/AppInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/AppWidgetResizeFrame.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/AppWidgetResizeFrame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/AppWidgetsRestoredReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/AppWidgetsRestoredReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/AutoInstallsLayout.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/AutoInstallsLayout.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/BaseContainerView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/BaseContainerView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/BaseRecyclerView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/BaseRecyclerView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/BaseRecyclerViewFastScrollBar.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/BaseRecyclerViewFastScrollBar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/BaseRecyclerViewFastScrollPopup.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/BaseRecyclerViewFastScrollPopup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/BorderCropDrawable.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/BorderCropDrawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/BubbleTextView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/BubbleTextView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/BuildInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/BuildInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/ButtonDropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/ButtonDropTarget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/CellLayout.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/CellLayout.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/CheckLongPressHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/CheckLongPressHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/ClickShadowView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/ClickShadowView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/CommonAppTypeParser.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/CommonAppTypeParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/CustomAppWidget.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/CustomAppWidget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DefaultLayoutParser.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DefaultLayoutParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DeferredHandler.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DeferredHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DeleteDropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DeleteDropTarget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DeviceProfile.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DeviceProfile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DragController.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DragController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DragLayer.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DragLayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DragScroller.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DragScroller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DragSource.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DragSource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DragView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DragView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DropTarget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/DummyWidget.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/DummyWidget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/ExtendedEditText.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/ExtendedEditText.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/FastBitmapDrawable.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/FastBitmapDrawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/FirstFrameAnimatorHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/FirstFrameAnimatorHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/FocusHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/FocusHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/FocusIndicatorView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/FocusIndicatorView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Folder.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Folder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/FolderIcon.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/FolderIcon.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/FolderInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/FolderInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/FolderPagedView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/FolderPagedView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/HolographicOutlineHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/HolographicOutlineHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Hotseat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Hotseat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/IconCache.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/IconCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/InfoDropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/InfoDropTarget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Insettable.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Insettable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/InsettableFrameLayout.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/InsettableFrameLayout.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/InstallShortcutReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/InstallShortcutReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/InterruptibleInOutAnimator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/InterruptibleInOutAnimator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/InvariantDeviceProfile.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/InvariantDeviceProfile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/ItemInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/ItemInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Launcher.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Launcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherAnimUtils.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherAnimUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherAppState.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherAppState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherAppWidgetHost.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherAppWidgetHost.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherAppWidgetHostView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherAppWidgetHostView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherAppWidgetInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherAppWidgetInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherAppWidgetProviderInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherAppWidgetProviderInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherBackupAgentHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherBackupAgentHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherBackupHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherBackupHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherCallbacks.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherCallbacks.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherClings.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherClings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherFiles.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherFiles.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherModel.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherProvider.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherProviderChangeListener.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherProviderChangeListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherRootView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherRootView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherScroller.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherScroller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherSettings.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherSettings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherStateTransitionAnimation.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherStateTransitionAnimation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherTransitionable.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherTransitionable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LauncherViewPropertyAnimator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherViewPropertyAnimator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LogAccelerateInterpolator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LogAccelerateInterpolator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/LogDecelerateInterpolator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/LogDecelerateInterpolator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/MainThreadExecutor.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/MainThreadExecutor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/MemoryDumpActivity.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/MemoryDumpActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/MemoryTracker.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/MemoryTracker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/OnAlarmListener.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/OnAlarmListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/PageIndicator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/PageIndicator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/PageIndicatorMarker.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/PageIndicatorMarker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/PagedView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/PagedView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Partner.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Partner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/PendingAddItemInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/PendingAddItemInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/PendingAppWidgetHostView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/PendingAppWidgetHostView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/PreloadIconDrawable.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/PreloadIconDrawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/SearchDropTargetBar.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/SearchDropTargetBar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/SettingsActivity.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/SettingsActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/ShortcutAndWidgetContainer.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/ShortcutAndWidgetContainer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/ShortcutInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/ShortcutInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/SpringLoadedDragController.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/SpringLoadedDragController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/StartupReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/StartupReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Stats.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Stats.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/StylusEventHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/StylusEventHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/ToggleWeightWatcher.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/ToggleWeightWatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/UninstallDropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/UninstallDropTarget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Utilities.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Utilities.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/WallpaperChangedReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/WallpaperChangedReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/WeightWatcher.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/WeightWatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/WidgetPreviewLoader.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/WidgetPreviewLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/Workspace.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/Workspace.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/WorkspaceStateTransitionAnimation.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/WorkspaceStateTransitionAnimation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/accessibility/DragAndDropAccessibilityDelegate.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/accessibility/DragAndDropAccessibilityDelegate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/accessibility/FolderAccessibilityHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/accessibility/FolderAccessibilityHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/accessibility/LauncherAccessibilityDelegate.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/accessibility/LauncherAccessibilityDelegate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/accessibility/OverviewScreenAccessibilityDelegate.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/accessibility/OverviewScreenAccessibilityDelegate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/accessibility/WorkspaceAccessibilityHelper.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/accessibility/WorkspaceAccessibilityHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/AllAppsBackgroundDrawable.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/AllAppsBackgroundDrawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/AllAppsContainerView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/AllAppsContainerView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/AllAppsGridAdapter.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/AllAppsGridAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/AllAppsRecyclerView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/AllAppsRecyclerView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/AllAppsRecyclerViewContainerView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/AllAppsRecyclerViewContainerView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/AllAppsSearchBarController.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/AllAppsSearchBarController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/AlphabeticalAppsList.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/AlphabeticalAppsList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/DefaultAppSearchAlgorithm.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/DefaultAppSearchAlgorithm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/allapps/DefaultAppSearchController.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/allapps/DefaultAppSearchController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/AlphabeticIndexCompat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/AlphabeticIndexCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/AppWidgetManagerCompat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/AppWidgetManagerCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/AppWidgetManagerCompatV16.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/AppWidgetManagerCompatV16.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/AppWidgetManagerCompatVL.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/AppWidgetManagerCompatVL.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/LauncherActivityInfoCompat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/LauncherActivityInfoCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/LauncherActivityInfoCompatV16.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/LauncherActivityInfoCompatV16.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/LauncherActivityInfoCompatVL.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/LauncherActivityInfoCompatVL.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/LauncherAppsCompat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/LauncherAppsCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/LauncherAppsCompatV16.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/LauncherAppsCompatV16.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/LauncherAppsCompatVL.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/LauncherAppsCompatVL.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/PackageInstallerCompat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/PackageInstallerCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/PackageInstallerCompatV16.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/PackageInstallerCompatV16.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/PackageInstallerCompatVL.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/PackageInstallerCompatVL.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/UserHandleCompat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/UserHandleCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/UserManagerCompat.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/UserManagerCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/UserManagerCompatV16.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/UserManagerCompatV16.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/UserManagerCompatV17.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/UserManagerCompatV17.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/compat/UserManagerCompatVL.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/compat/UserManagerCompatVL.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/config/ProviderConfig.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/config/ProviderConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/model/AbstractUserComparator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/model/AbstractUserComparator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/model/AppNameComparator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/model/AppNameComparator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/model/MigrateFromRestoreTask.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/model/MigrateFromRestoreTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/model/PackageItemInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/model/PackageItemInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/model/WidgetsAndShortcutNameComparator.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/model/WidgetsAndShortcutNameComparator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/model/WidgetsModel.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/model/WidgetsModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/testing/LauncherExtension.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/testing/LauncherExtension.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/ComponentKey.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/ComponentKey.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/CursorIconInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/CursorIconInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/FlingAnimation.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/FlingAnimation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/FocusLogic.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/FocusLogic.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/LauncherEdgeEffect.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/LauncherEdgeEffect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/LongArrayMap.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/LongArrayMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/ManagedProfileHeuristic.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/ManagedProfileHeuristic.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/RevealOutlineProvider.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/RevealOutlineProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/Thunk.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/Thunk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/UiThreadCircularReveal.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/UiThreadCircularReveal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/util/WallpaperUtils.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/util/WallpaperUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/PendingAddShortcutInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/PendingAddShortcutInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/PendingAddWidgetInfo.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/PendingAddWidgetInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/WidgetCell.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/WidgetCell.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/WidgetHostViewLoader.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/WidgetHostViewLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/WidgetImageView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/WidgetImageView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/WidgetsContainerView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/WidgetsContainerView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/WidgetsListAdapter.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/WidgetsListAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/WidgetsRecyclerView.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/WidgetsRecyclerView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/android/launcher3/widget/WidgetsRowViewHolder.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/widget/WidgetsRowViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/simplo_launcher3/config/ProviderConfig.java" afterPath="$PROJECT_DIR$/src/com/android/simplo_launcher3/config/ProviderConfig.java" />
     </list>
-    <ignored path="Launcher3.iws" />
+    <ignored path="SimplOS.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,102 +38,13 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Launcher3" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
-            </PATH>
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FavoritesManager">
-    <favorites_list name="Launcher3" />
+    <favorites_list name="SimplOS" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonAppTypeParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/CommonAppTypeParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backup.proto" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protos/backup.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5122378">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/AppFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllAppsList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/AllAppsList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LauncherBackupHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherBackupHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -344,14 +53,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Launcher3" />
+              <option name="name" value="SimplOS" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="Launcher3" />
+                <option name="name" value="SimplOS" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -412,7 +121,7 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'Launcher3'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'SimplOS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -520,7 +229,7 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Launcher3'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'SimplOS'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -540,12 +249,12 @@
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Launcher3'." />
+                <option name="description" value="Displays all dependencies declared in root project 'SimplOS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Launcher3'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'SimplOS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -774,7 +483,7 @@
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Launcher3'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'SimplOS'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -901,12 +610,12 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Launcher3'." />
+                <option name="description" value="Displays the sub-projects of root project 'SimplOS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Launcher3'." />
+                <option name="description" value="Displays the properties of root project 'SimplOS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -921,7 +630,7 @@
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Launcher3'." />
+                <option name="description" value="Displays the tasks runnable from root project 'SimplOS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -1166,7 +875,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="Launcher3" />
+              <option name="name" value="SimplOS" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/ant-1.9.3.jar" />
@@ -1240,27 +949,11 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/build/generated/source/proto/debug/javanano/com/android/launcher3/backup/BackupProtos.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher3_1/LauncherBackupHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher3_1/CommonAppTypeParser.java" />
-        <option value="$PROJECT_DIR$/res/layout-sw720dp/launcher.xml" />
-        <option value="$PROJECT_DIR$/res/layout-port/launcher.xml" />
-        <option value="$PROJECT_DIR$/build/generated/source/proto/debug/javanano/launcher3_1/backup/BackupProtos.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher3/CommonAppTypeParser.java" />
-        <option value="$PROJECT_DIR$/src/com/android/simplo_launcher3/AllAppsList.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/protos/backup.proto" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1273,7 +966,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -1292,165 +985,34 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
+              <option name="myItemId" value="SimplOS" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
+              <option name="myItemId" value="SimplOS" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
+              <option name="myItemId" value="SimplOS" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="outputs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="outputs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Launcher3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="E:/Android/android-sdk" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="android.project.structure.last.selected" value="Launcher3" />
-    <property name="android.project.structure.proportion" value="0.15" />
-    <property name="last_opened_file_path" value="E:/Program Files (x86)/SmartGit/git/bin/git.exe" />
-    <property name="device.picker.selection" value="192.168.183.101:5555" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.android.launcher3" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Android Application.Launcher3">
+  <component name="RunManager" selected="Android Application.SimplOS">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -1483,39 +1045,6 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <Native>
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Native>
-      <Java />
-      <Hybrid>
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Hybrid>
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1557,48 +1086,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1635,36 +1122,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="Launcher3" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false">
-      <module name="Launcher3" />
+    <configuration default="false" name="SimplOS" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="SimplOS" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
@@ -1698,7 +1157,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.Launcher3" />
+      <item index="0" class="java.lang.String" itemvalue="Android Application.SimplOS" />
     </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -1719,179 +1178,62 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71c66083-0feb-4c6e-8ab0-12788140393a" name="Default" comment="" />
-      <created>1460902734134</created>
+      <changelist id="d338de7d-305a-4cb5-810f-8cf44d0d126a" name="Default" comment="" />
+      <created>1461075120583</created>
       <option name="number" value="Default" />
-      <updated>1460902734134</updated>
+      <updated>1461075120583</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="0" width="1932" height="1056" extended-state="0" />
+    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.48290598" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.517094" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21070234" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12151617" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31661093" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="CodotaView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48720682" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="CodotaView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/LauncherBackupHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/launcher.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9883041">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-sw720dp/launcher.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3723197">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/AppFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/ToggleWeightWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24475524">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3146853">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4736843">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/AllAppsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WallpaperPicker/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/simplo_launcher3/CommonAppTypeParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protos/backup.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5122378">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36085626">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
           <folding />
         </state>
       </provider>
