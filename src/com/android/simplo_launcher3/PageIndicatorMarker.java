@@ -21,6 +21,7 @@ import android.content.res.Resources;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class PageIndicatorMarker extends FrameLayout {
     @SuppressWarnings("unused")
@@ -28,8 +29,9 @@ public class PageIndicatorMarker extends FrameLayout {
 
     private static final int MARKER_FADE_DURATION = 175;
 
-    private ImageView mActiveMarker;
+    private TextView mActiveMarker;
     private ImageView mInactiveMarker;
+
     private boolean mIsActive = false;
 
     public PageIndicatorMarker(Context context) {
@@ -45,13 +47,15 @@ public class PageIndicatorMarker extends FrameLayout {
     }
 
     protected void onFinishInflate() {
-        mActiveMarker = (ImageView) findViewById(R.id.active);
+        mActiveMarker = (TextView) findViewById(R.id.active);
         mInactiveMarker = (ImageView) findViewById(R.id.inactive);
+
     }
 
-    void setMarkerDrawables(int activeResId, int inactiveResId) {
+    void setMarkerDrawables(int currentActiveId, int inactiveResId) {
         Resources r = getResources();
-        mActiveMarker.setImageDrawable(r.getDrawable(activeResId));
+        //mActiveMarker.setImageDrawable(r.getDrawable(activeResId));
+        mActiveMarker.setText(String.valueOf(currentActiveId+1));
         mInactiveMarker.setImageDrawable(r.getDrawable(inactiveResId));
     }
 
@@ -61,6 +65,7 @@ public class PageIndicatorMarker extends FrameLayout {
             mActiveMarker.setAlpha(1f);
             mActiveMarker.setScaleX(1f);
             mActiveMarker.setScaleY(1f);
+
             mInactiveMarker.animate().cancel();
             mInactiveMarker.setAlpha(0f);
         } else {

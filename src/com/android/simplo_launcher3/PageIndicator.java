@@ -40,15 +40,15 @@ public class PageIndicator extends LinearLayout {
     private int mActiveMarkerIndex;
 
     public static class PageMarkerResources {
-        int activeId;
+
         int inactiveId;
 
         public PageMarkerResources() {
-            activeId = R.drawable.ic_pageindicator_current;
+
             inactiveId = R.drawable.ic_pageindicator_default;
         }
         public PageMarkerResources(int aId, int iaId) {
-            activeId = aId;
+
             inactiveId = iaId;
         }
     }
@@ -93,9 +93,11 @@ public class PageIndicator extends LinearLayout {
     }
 
     void offsetWindowCenterTo(int activeIndex, boolean allowAnimations) {
+        //抛出异常
         if (activeIndex < 0) {
             new Throwable().printStackTrace();
         }
+
         int windowSize = Math.min(mMarkers.size(), mMaxWindowSize);
         int hWindowSize = (int) windowSize / 2;
         float hfWindowSize = windowSize / 2f;
@@ -165,7 +167,7 @@ public class PageIndicator extends LinearLayout {
         PageIndicatorMarker m =
             (PageIndicatorMarker) mLayoutInflater.inflate(R.layout.page_indicator_marker,
                     this, false);
-        m.setMarkerDrawables(marker.activeId, marker.inactiveId);
+        m.setMarkerDrawables(index, marker.inactiveId);
 
         mMarkers.add(index, m);
         offsetWindowCenterTo(mActiveMarkerIndex, allowAnimations);
@@ -178,7 +180,7 @@ public class PageIndicator extends LinearLayout {
 
     void updateMarker(int index, PageMarkerResources marker) {
         PageIndicatorMarker m = mMarkers.get(index);
-        m.setMarkerDrawables(marker.activeId, marker.inactiveId);
+        m.setMarkerDrawables(index, marker.inactiveId);
     }
 
     void removeMarker(int index, boolean allowAnimations) {
