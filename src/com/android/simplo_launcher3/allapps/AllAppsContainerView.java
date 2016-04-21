@@ -27,6 +27,7 @@ import android.text.Selection;
 import android.text.SpannableStringBuilder;
 import android.text.method.TextKeyListener;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -353,6 +354,7 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
 
             mAppsRecyclerView.setNumAppsPerRow(grid, mNumAppsPerRow);
             mAdapter.setNumAppsPerRow(mNumAppsPerRow);
+            mAdapter.setNumAppsPerCol(3);
             mApps.setNumAppsPerRow(mNumAppsPerRow, mNumPredictedAppsPerRow, mergeAlgorithm);
         }
 

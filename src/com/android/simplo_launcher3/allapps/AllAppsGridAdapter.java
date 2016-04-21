@@ -29,12 +29,14 @@ import android.support.v4.view.accessibility.AccessibilityEventCompat;
 import android.net.Uri;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.android.simplo_launcher3.AppInfo;
 import com.android.simplo_launcher3.BubbleTextView;
@@ -252,6 +254,11 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
         @Override
         public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
                 RecyclerView.State state) {
+            if(parent.getChildLayoutPosition(view) / 4 == 0) {
+                outRect.bottom = (mGridLayoutMgr.getHeight() / mAppsPerCol - 130) / 2;
+            } else {
+                outRect.top = outRect.bottom = (mGridLayoutMgr.getHeight() / mAppsPerCol - 130) / 2;
+            }
             // Do nothing
         }
 
@@ -330,6 +337,7 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
     @Thunk final Rect mBackgroundPadding = new Rect();
     @Thunk int mPredictionBarDividerOffset;
     @Thunk int mAppsPerRow;
+    @Thunk int mAppsPerCol = 3;
     @Thunk boolean mIsRtl;
 
     // The text to show when there are no search results and no market search handler.
@@ -396,8 +404,17 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
      * Sets the number of apps per row.
      */
     public void setNumAppsPerRow(int appsPerRow) {
+       // 修改应用列表的分布（行分布)
         mAppsPerRow = appsPerRow;
         mGridLayoutMgr.setSpanCount(appsPerRow);
+    }
+
+    /**
+     * Sets the number of apps
+     * @param appsPerCol
+     */
+    public void setNumAppsPerCol(int appsPerCol) {
+        mAppsPerCol = appsPerCol;
     }
 
     /**
@@ -460,6 +477,10 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
                 icon.setLongPressTimeout(ViewConfiguration.get(parent.getContext())
                         .getLongPressTimeout());
                 icon.setFocusable(true);
+                //TODO 此处修改应用列表每个Item高度
+                RecyclerView.LayoutParams layoutParams = (RecyclerView.LayoutParams)icon.getLayoutParams();
+//                layoutParams.height = mGridLayoutMgr.getHeight() / mAppsPerCol;
+                icon.setLayoutParams(layoutParams);
                 return new ViewHolder(icon);
             }
             case PREDICTION_ICON_VIEW_TYPE: {
