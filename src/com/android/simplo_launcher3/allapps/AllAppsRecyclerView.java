@@ -23,6 +23,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import com.android.simplo_launcher3.BaseRecyclerView;
@@ -302,11 +303,13 @@ public class AllAppsRecyclerView extends BaseRecyclerView
         // Calculate the current scroll position, the scrollY of the recycler view accounts for the
         // view padding, while the scrollBarY is drawn right up to the background padding (ignoring
         // padding)
-        int scrollY = getPaddingTop() +
+        int scrollY;
+        scrollY = getPaddingTop() +
                 (mScrollPosState.rowIndex * mScrollPosState.rowHeight) - mScrollPosState.rowTopOffset;
+//        if(mScrollPosState.rowIndex == 0)
+//            scrollY += (mScrollPosState.itemHeight / 2 - getPaddingTop());
         int scrollBarY = mBackgroundPadding.top +
                 (int) (((float) scrollY / availableScrollHeight) * availableScrollBarHeight);
-
         if (mScrollbar.isThumbDetached()) {
             int scrollBarX;
             if (Utilities.isRtl(getResources())) {
@@ -421,9 +424,13 @@ public class AllAppsRecyclerView extends BaseRecyclerView
                 AlphabeticalAppsList.AdapterItem item = items.get(position);
                 if (item.viewType == AllAppsGridAdapter.ICON_VIEW_TYPE ||
                         item.viewType == AllAppsGridAdapter.PREDICTION_ICON_VIEW_TYPE) {
+                    AllAppsGridAdapter.GridItemDecoration itemDecoration =
+                            ((AllAppsGridAdapter.GridItemDecoration)(((AllAppsGridAdapter)getAdapter()).getItemDecoration()));
                     stateOut.rowIndex = item.rowIndex;
                     stateOut.rowTopOffset = getLayoutManager().getDecoratedTop(child);
-                    stateOut.rowHeight = child.getHeight();
+                    //2016.4.22 Modify : add the offset of item to calculate scrollY correctly.
+                    stateOut.rowHeight = child.getHeight() + itemDecoration.getmOutRect().bottom * 2;
+                    stateOut.itemHeight = child.getHeight();
                     break;
                 }
             }

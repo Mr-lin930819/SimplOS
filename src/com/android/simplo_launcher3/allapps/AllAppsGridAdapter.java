@@ -36,7 +36,6 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.android.simplo_launcher3.AppInfo;
 import com.android.simplo_launcher3.BubbleTextView;
@@ -148,6 +147,16 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
         private HashMap<String, PointF> mCachedSectionBounds = new HashMap<>();
         private Rect mTmpBounds = new Rect();
 
+        public Rect getmOutRect() {
+            return mOutRect;
+        }
+
+        public void setOutRect(Rect outRect) {
+            this.mOutRect = outRect;
+        }
+
+        private Rect mOutRect = new Rect();
+
         @Override
         public void onDraw(Canvas c, RecyclerView parent, RecyclerView.State state) {
             if (mApps.hasFilter() || mAppsPerRow == 0) {
@@ -254,12 +263,17 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
         @Override
         public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
                 RecyclerView.State state) {
-            if(parent.getChildLayoutPosition(view) / 4 == 0) {
-                outRect.bottom = (mGridLayoutMgr.getHeight() / mAppsPerCol - 130) / 2;
-            } else {
-                outRect.top = outRect.bottom = (mGridLayoutMgr.getHeight() / mAppsPerCol - 130) / 2;
+            setOutRect(outRect);
+            //RecyclerView 的 第一个Item不可见，真正的item从index=1开始
+            if(parent.getChildPosition(view) == 0) {
+                return;
             }
-            // Do nothing
+//            if(parent.getChildPosition(view) < (mAppsPerRow+1)) {
+//                outRect.top = (mGridLayoutMgr.getHeight() / mAppsPerCol - view.getLayoutParams().height) / 2;
+//            } else {
+//                outRect.bottom = outRect.top = (mGridLayoutMgr.getHeight() / mAppsPerCol - view.getLayoutParams().height) / 2;
+//            }
+            outRect.bottom = outRect.top = (mGridLayoutMgr.getHeight() / mAppsPerCol - view.getLayoutParams().height) / 2;
         }
 
         /**
@@ -478,9 +492,9 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
                         .getLongPressTimeout());
                 icon.setFocusable(true);
                 //TODO 此处修改应用列表每个Item高度
-                RecyclerView.LayoutParams layoutParams = (RecyclerView.LayoutParams)icon.getLayoutParams();
+//                RecyclerView.LayoutParams layoutParams = (RecyclerView.LayoutParams)icon.getLayoutParams();
 //                layoutParams.height = mGridLayoutMgr.getHeight() / mAppsPerCol;
-                icon.setLayoutParams(layoutParams);
+//                icon.setLayoutParams(layoutParams);
                 return new ViewHolder(icon);
             }
             case PREDICTION_ICON_VIEW_TYPE: {

@@ -54,6 +54,8 @@ public abstract class BaseRecyclerView extends RecyclerView
         public int rowTopOffset;
         // The height of a given row (they are currently all the same height)
         public int rowHeight;
+
+        public int itemHeight;
     }
 
     protected BaseRecyclerViewFastScrollBar mScrollbar;
@@ -254,6 +256,10 @@ public abstract class BaseRecyclerView extends RecyclerView
         // padding)
         int scrollY = getPaddingTop() +
                 (scrollPosState.rowIndex * scrollPosState.rowHeight) - scrollPosState.rowTopOffset;
+        // 2016.4.22 modify - now, it's not useful, just for testing.
+        // if it is the first row, scroll should add some offset so as to work well.
+//        if(scrollPosState.rowIndex == 0)
+//            scrollY += (scrollPosState.itemHeight / 2 - getPaddingTop());
         int scrollBarY = mBackgroundPadding.top +
                 (int) (((float) scrollY / availableScrollHeight) * availableScrollBarHeight);
 
