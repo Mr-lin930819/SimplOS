@@ -103,6 +103,9 @@ final class DefaultAppSearchController extends AllAppsSearchBarController
                         return false;
                     }
                 });
+        //modify by lin -- 2016。04.22
+        //隐藏搜索栏
+        mSearchView.setVisibility(View.GONE);
         return mSearchView;
     }
 

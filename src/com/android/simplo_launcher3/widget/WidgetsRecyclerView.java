@@ -23,6 +23,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.util.AttributeSet;
 import android.view.View;
 import com.android.simplo_launcher3.BaseRecyclerView;
+import com.android.simplo_launcher3.allapps.AllAppsGridAdapter;
 import com.android.simplo_launcher3.model.PackageItemInfo;
 import com.android.simplo_launcher3.model.WidgetsModel;
 
@@ -160,8 +161,12 @@ public class WidgetsRecyclerView extends BaseRecyclerView {
         View child = getChildAt(0);
         int position = getChildPosition(child);
 
+        AllAppsGridAdapter.GridItemDecoration itemDecoration =
+                ((AllAppsGridAdapter.GridItemDecoration)(((AllAppsGridAdapter)getAdapter()).getItemDecoration()));
         stateOut.rowIndex = position;
         stateOut.rowTopOffset = getLayoutManager().getDecoratedTop(child);
-        stateOut.rowHeight = child.getHeight();
+        //2016.4.22 Modify : add the offset of item to calculate scrollY correctly.
+        stateOut.rowHeight = child.getHeight() + itemDecoration.getmOutRect().bottom * 2;
+        stateOut.itemHeight = child.getHeight();
     }
 }

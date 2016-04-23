@@ -534,6 +534,22 @@ public class Launcher extends Activity
         }
     }
 
+    @Override
+    public void onListSettingChanged(String settings, String value) {
+        if (Utilities.ROW_AND_COL_PREFERENCE_KEY.equals(settings)) {
+            switch (value) {
+                case "0"://3x3
+                    mAppsView.updateRowAndCol(3, 3);
+                    return;
+                case "1"://3x4
+                    mAppsView.updateRowAndCol(4, 3);
+                    return;
+                default:
+                    return;
+            }
+        }
+    }
+
     private LauncherCallbacks mLauncherCallbacks;
 
     public void onPostCreate(Bundle savedInstanceState) {
@@ -1442,6 +1458,21 @@ public class Launcher extends Activity
         // Setup Apps and Widgets
         mAppsView = (AllAppsContainerView) findViewById(R.id.apps_view);
         mWidgetsView = (WidgetsContainerView) findViewById(R.id.widgets_view);
+        //设置应用列表默认的行列数
+        String rowColDefaultSettings = Launcher.this.getSharedPreferences(
+                LauncherAppState.getSharedPreferencesKey(), Context.MODE_PRIVATE)
+                .getString(Utilities.ROW_AND_COL_PREFERENCE_KEY, "0");
+        switch (rowColDefaultSettings) {
+            case LauncherSettings.Settings.SETTING_COL_ROW_3X3:
+                mAppsView.setDefaultRowCol(3, 3);
+                break;
+            case LauncherSettings.Settings.SETTING_COL_ROW_3X4:
+                mAppsView.setDefaultRowCol(4, 3);
+                break;
+            default:
+                mAppsView.setDefaultRowCol(3, 3);
+        }
+
         if (mLauncherCallbacks != null && mLauncherCallbacks.getAllAppsSearchBarController() != null) {
             mAppsView.setSearchBarController(mLauncherCallbacks.getAllAppsSearchBarController());
         } else {

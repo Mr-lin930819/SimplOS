@@ -30,6 +30,7 @@ import android.graphics.Region;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.SparseArray;
 import android.util.TypedValue;
 import android.view.KeyEvent;
@@ -499,6 +500,33 @@ public class BubbleTextView extends TextView
         }
         return theme;
     }
+
+//    @Override
+//    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+////        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+////        int width = measureDimension(mIconSize + (int)getTextSize(), widthMeasureSpec);
+////        int height = measureDimension(200, heightMeasureSpec);
+////        setMeasuredDimension(width, height);
+//
+//        int widthMode = MeasureSpec.getMode(widthMeasureSpec);
+//        int heightMode = MeasureSpec.getMode(heightMeasureSpec);
+//        int width;
+//        int height;
+//
+//        if (widthMode == MeasureSpec.EXACTLY
+//                && heightMode != MeasureSpec.EXACTLY) {
+//            height = mIconSize + (int)getTextSize();
+//            heightMeasureSpec = MeasureSpec.makeMeasureSpec(height,
+//                    MeasureSpec.EXACTLY);
+//        } else if (widthMode != MeasureSpec.EXACTLY
+//                && heightMode == MeasureSpec.EXACTLY) {
+//            width = mIconSize + (int)getTextSize();
+//            widthMeasureSpec = MeasureSpec.makeMeasureSpec(width,
+//                    MeasureSpec.EXACTLY);
+//        }
+//
+//        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+//    }
 
     /**
      * Sets the icon for this view based on the layout direction.

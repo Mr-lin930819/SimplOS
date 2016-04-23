@@ -235,6 +235,7 @@ public class DeviceProfile {
                 (allAppsIconSizePx + allAppsCellWidthGap);
         int numPredictiveAppCols = Math.max(inv.minAllAppsPredictionColumns, numAppsCols);
         allAppsNumCols = numAppsCols;
+        //allAppsNumCols = 3;
         allAppsNumPredictiveCols = numPredictiveAppCols;
     }
 

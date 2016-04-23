@@ -29,6 +29,7 @@ import android.support.v4.view.accessibility.AccessibilityEventCompat;
 import android.net.Uri;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -146,6 +147,16 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
         private HashMap<String, PointF> mCachedSectionBounds = new HashMap<>();
         private Rect mTmpBounds = new Rect();
 
+        public Rect getmOutRect() {
+            return mOutRect;
+        }
+
+        public void setOutRect(Rect outRect) {
+            this.mOutRect = outRect;
+        }
+
+        private Rect mOutRect = new Rect();
+
         @Override
         public void onDraw(Canvas c, RecyclerView parent, RecyclerView.State state) {
             if (mApps.hasFilter() || mAppsPerRow == 0) {
@@ -252,7 +263,17 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
         @Override
         public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
                 RecyclerView.State state) {
-            // Do nothing
+            setOutRect(outRect);
+            //RecyclerView 的 第一个Item不可见，真正的item从index=1开始
+            if(parent.getChildPosition(view) == 0) {
+                return;
+            }
+//            if(parent.getChildPosition(view) < (mAppsPerRow+1)) {
+//                outRect.top = (mGridLayoutMgr.getHeight() / mAppsPerCol - view.getLayoutParams().height) / 2;
+//            } else {
+//                outRect.bottom = outRect.top = (mGridLayoutMgr.getHeight() / mAppsPerCol - view.getLayoutParams().height) / 2;
+//            }
+            outRect.bottom = outRect.top = (mGridLayoutMgr.getHeight() / mAppsPerCol - view.getLayoutParams().height) / 2;
         }
 
         /**
@@ -330,6 +351,7 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
     @Thunk final Rect mBackgroundPadding = new Rect();
     @Thunk int mPredictionBarDividerOffset;
     @Thunk int mAppsPerRow;
+    @Thunk int mAppsPerCol = 3;
     @Thunk boolean mIsRtl;
 
     // The text to show when there are no search results and no market search handler.
@@ -396,8 +418,17 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
      * Sets the number of apps per row.
      */
     public void setNumAppsPerRow(int appsPerRow) {
+       // 修改应用列表的分布（行分布)
         mAppsPerRow = appsPerRow;
         mGridLayoutMgr.setSpanCount(appsPerRow);
+    }
+
+    /**
+     * Sets the number of apps
+     * @param appsPerCol
+     */
+    public void setNumAppsPerCol(int appsPerCol) {
+        mAppsPerCol = appsPerCol;
     }
 
     /**
@@ -460,6 +491,10 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
                 icon.setLongPressTimeout(ViewConfiguration.get(parent.getContext())
                         .getLongPressTimeout());
                 icon.setFocusable(true);
+                //TODO 此处修改应用列表每个Item高度
+//                RecyclerView.LayoutParams layoutParams = (RecyclerView.LayoutParams)icon.getLayoutParams();
+//                layoutParams.height = mGridLayoutMgr.getHeight() / mAppsPerCol;
+//                icon.setLayoutParams(layoutParams);
                 return new ViewHolder(icon);
             }
             case PREDICTION_ICON_VIEW_TYPE: {

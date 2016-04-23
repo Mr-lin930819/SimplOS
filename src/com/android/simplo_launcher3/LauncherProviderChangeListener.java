@@ -11,5 +11,7 @@ public interface LauncherProviderChangeListener {
 
     public void onSettingsChanged(String settings, boolean value);
 
+    public void onListSettingChanged(String settings, String value);
+
     public void onAppWidgetHostReset();
 }

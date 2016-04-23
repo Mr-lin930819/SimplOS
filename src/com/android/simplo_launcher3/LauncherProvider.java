@@ -275,6 +275,27 @@ public class LauncherProvider extends ContentProvider {
                 result.putBoolean(LauncherSettings.Settings.EXTRA_VALUE, value);
                 return result;
             }
+            case LauncherSettings.Settings.METHOD_GET_STRING: {
+                Bundle result = new Bundle();
+                result.putString(LauncherSettings.Settings.EXTRA_VALUE,
+                        getContext().getSharedPreferences(
+                                LauncherAppState.getSharedPreferencesKey(), Context.MODE_PRIVATE)
+                                .getString(arg, extras.getString(
+                                        LauncherSettings.Settings.EXTRA_DEFAULT_VALUE)));
+                return result;
+            }
+            case LauncherSettings.Settings.METHOD_SET_STRING: {
+                String value = extras.getString(LauncherSettings.Settings.EXTRA_VALUE);
+                getContext().getSharedPreferences(
+                        LauncherAppState.getSharedPreferencesKey(), Context.MODE_PRIVATE)
+                        .edit().putString(arg, value).apply();
+                if (mListener != null) {
+                    mListener.onListSettingChanged(arg, value);
+                }
+                Bundle result = new Bundle();
+                result.putString(LauncherSettings.Settings.EXTRA_VALUE, value);
+                return result;
+            }
         }
         return null;
     }
