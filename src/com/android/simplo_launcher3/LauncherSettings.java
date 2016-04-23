@@ -321,8 +321,14 @@ public class LauncherSettings {
 
         public static final String METHOD_GET_BOOLEAN = "get_boolean_setting";
         public static final String METHOD_SET_BOOLEAN = "set_boolean_setting";
+        public static final String METHOD_GET_STRING = "get_string_setting";
+        public static final String METHOD_SET_STRING = "set_string_setting";
+
 
         public static final String EXTRA_VALUE = "value";
         public static final String EXTRA_DEFAULT_VALUE = "default_value";
+
+        public static final String SETTING_COL_ROW_3X3 = "0";
+        public static final String SETTING_COL_ROW_3X4 = "1";
     }
 }

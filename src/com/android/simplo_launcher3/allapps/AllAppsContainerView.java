@@ -182,6 +182,7 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
         mSectionNamesMargin = res.getDimensionPixelSize(R.dimen.all_apps_grid_view_start_margin);
         mApps = new AlphabeticalAppsList(context);
         mAdapter = new AllAppsGridAdapter(mLauncher, mApps, this, mLauncher, this);
+        //mAdapter.setNumAppsPerCol(3);
         mApps.setAdapter(mAdapter);
         mLayoutManager = mAdapter.getLayoutManager();
         mItemDecoration = mAdapter.getItemDecoration();
@@ -190,6 +191,20 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
 
         mSearchQueryBuilder = new SpannableStringBuilder();
         Selection.setSelection(mSearchQueryBuilder, 0);
+    }
+
+    public void setDefaultRowCol(int rowNum, int colNum) {
+        mNumAppsPerRow = colNum;
+        mAdapter.setNumAppsPerRow(colNum);
+        mAdapter.setNumAppsPerCol(rowNum);
+    }
+
+    /**
+     * Update the Column and Row of appLauncher
+     */
+    public void updateRowAndCol(int rowNum, int colNum) {
+        setDefaultRowCol(rowNum, colNum);
+        updateApps(mApps.getApps());
     }
 
     /**
@@ -353,8 +368,8 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
                             MIN_ROWS_IN_MERGED_SECTION_PHONE, MAX_NUM_MERGES_PHONE);
 
             mAppsRecyclerView.setNumAppsPerRow(grid, mNumAppsPerRow);
-            mAdapter.setNumAppsPerRow(mNumAppsPerRow);
-            mAdapter.setNumAppsPerCol(3);
+            //mAdapter.setNumAppsPerRow(mNumAppsPerRow);
+            //mAdapter.setNumAppsPerCol(3);
             mApps.setNumAppsPerRow(mNumAppsPerRow, mNumPredictedAppsPerRow, mergeAlgorithm);
         }
 

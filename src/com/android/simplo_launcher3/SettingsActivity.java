@@ -18,6 +18,7 @@ package com.android.simplo_launcher3;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
@@ -40,6 +41,7 @@ public class SettingsActivity extends Activity {
     /**
      * This fragment shows the launcher preferences.
      */
+    //TODO 在此加入应用列表设置
     public static class LauncherSettingsFragment extends PreferenceFragment
             implements OnPreferenceChangeListener {
         @Override
@@ -49,7 +51,10 @@ public class SettingsActivity extends Activity {
 
             SwitchPreference pref = (SwitchPreference) findPreference(
                     Utilities.ALLOW_ROTATION_PREFERENCE_KEY);
+            ListPreference rowAndColPref = (ListPreference) findPreference(
+                    Utilities.ROW_AND_COL_PREFERENCE_KEY);
             pref.setPersistent(false);
+            rowAndColPref.setPersistent(false);
 
             Bundle extras = new Bundle();
             extras.putBoolean(LauncherSettings.Settings.EXTRA_DEFAULT_VALUE, false);
@@ -60,16 +65,34 @@ public class SettingsActivity extends Activity {
             pref.setChecked(value.getBoolean(LauncherSettings.Settings.EXTRA_VALUE));
 
             pref.setOnPreferenceChangeListener(this);
+
+            //2016.4.23 增加设置列表行列数
+            Bundle rowColExtras = new Bundle();
+            rowColExtras.putString(LauncherSettings.Settings.EXTRA_DEFAULT_VALUE, "0");
+            Bundle rowColValue = getActivity().getContentResolver().call(
+                    LauncherSettings.Settings.CONTENT_URI,
+                    LauncherSettings.Settings.METHOD_GET_STRING,
+                    Utilities.ROW_AND_COL_PREFERENCE_KEY, rowColExtras);
+            rowAndColPref.setValue(rowColValue.getString(LauncherSettings.Settings.EXTRA_VALUE));
+            rowAndColPref.setOnPreferenceChangeListener(this);
         }
 
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {
             Bundle extras = new Bundle();
-            extras.putBoolean(LauncherSettings.Settings.EXTRA_VALUE, (Boolean) newValue);
-            getActivity().getContentResolver().call(
-                    LauncherSettings.Settings.CONTENT_URI,
-                    LauncherSettings.Settings.METHOD_SET_BOOLEAN,
-                    preference.getKey(), extras);
+            if(preference.getKey().equals(Utilities.ALLOW_ROTATION_PREFERENCE_KEY)) {
+                extras.putBoolean(LauncherSettings.Settings.EXTRA_VALUE, (Boolean) newValue);
+                getActivity().getContentResolver().call(
+                        LauncherSettings.Settings.CONTENT_URI,
+                        LauncherSettings.Settings.METHOD_SET_BOOLEAN,
+                        preference.getKey(), extras);
+            } else if(preference.getKey().equals(Utilities.ROW_AND_COL_PREFERENCE_KEY)) {   //2016.4.23 增加设置列表行列数
+                extras.putString(LauncherSettings.Settings.EXTRA_VALUE, (String) newValue);
+                getActivity().getContentResolver().call(
+                        LauncherSettings.Settings.CONTENT_URI,
+                        LauncherSettings.Settings.METHOD_SET_STRING,
+                        preference.getKey(), extras);
+            }
             return true;
         }
     }

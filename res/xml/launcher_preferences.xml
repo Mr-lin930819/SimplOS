@@ -23,4 +23,12 @@
             android:persistent="true"
     />
 
+    <ListPreference
+        android:key="pref_rowAndCol"
+        android:title="@string/row_and_col_title"
+        android:entries="@array/row_col_key"
+        android:entryValues="@array/row_col_value"
+        android:defaultValue="0"
+        android:persistent="true" />
+
 </PreferenceScreen>
