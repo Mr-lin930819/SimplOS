@@ -356,7 +356,7 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
         grid.updateAppsViewNumCols(getResources(), availableWidth);
         if (mNumAppsPerRow != grid.allAppsNumCols ||
                 mNumPredictedAppsPerRow != grid.allAppsNumPredictiveCols) {
-            mNumAppsPerRow = grid.allAppsNumCols;
+            //mNumAppsPerRow = grid.allAppsNumCols;
             mNumPredictedAppsPerRow = grid.allAppsNumPredictiveCols;
 
             // If there is a start margin to draw section names, determine how we are going to merge
