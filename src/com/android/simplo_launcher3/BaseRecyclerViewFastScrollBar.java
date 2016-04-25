@@ -215,6 +215,14 @@ public class BaseRecyclerViewFastScrollBar {
                 break;
             case MotionEvent.ACTION_UP:
             case MotionEvent.ACTION_CANCEL:
+                //TODO 修改为snap模式，可以贴附滚动
+                BaseRecyclerView.ScrollPositionState scrollPosState =
+                        new BaseRecyclerView.ScrollPositionState();
+                mRv.getCurScrollState(scrollPosState);
+                if(scrollPosState.rowTopOffset <
+                        (scrollPosState.rowIndex) * scrollPosState.itemHeight) {
+                    mRv.scrollToPosition(scrollPosState.rowIndex * scrollPosState.itemHeight);
+                }
                 mTouchOffset = 0;
                 mLastTouchY = 0;
                 mIgnoreDragGesture = false;
