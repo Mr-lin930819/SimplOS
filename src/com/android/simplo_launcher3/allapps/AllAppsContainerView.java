@@ -36,6 +36,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import com.android.simplo_launcher3.AppInfo;
 import com.android.simplo_launcher3.BaseContainerView;
+import com.android.simplo_launcher3.BaseRecyclerView;
 import com.android.simplo_launcher3.CellLayout;
 import com.android.simplo_launcher3.DeleteDropTarget;
 import com.android.simplo_launcher3.DeviceProfile;
@@ -335,6 +336,46 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
         mAppsRecyclerView.setLayoutManager(mLayoutManager);
         mAppsRecyclerView.setAdapter(mAdapter);
         mAppsRecyclerView.setHasFixedSize(true);
+        mAppsRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                //TODO 测试添加，可以捕捉滑动到某一页(还不能正常实现)
+                if(0 == newState) { //滚动停止
+                    BaseRecyclerView.ScrollPositionState state =
+                            new BaseRecyclerView.ScrollPositionState();
+                    mAppsRecyclerView.getCurScrollState(state);
+                    int rowIndex = state.rowIndex;
+                    int page = 0;
+                    if(mAdapter.getNumAppsPerCol() % 2 == 0){   //偶数
+                        if ( (rowIndex % mAdapter.getNumAppsPerCol())
+                                < (mAdapter.getNumAppsPerCol() / 2) )
+                            page = rowIndex / mAdapter.getNumAppsPerCol();
+                        else if ( (rowIndex % mAdapter.getNumAppsPerCol())
+                                >= (mAdapter.getNumAppsPerCol() / 2) )
+                            page = rowIndex / mAdapter.getNumAppsPerCol() + 1;
+                    } else {    //奇数
+                        if ( (rowIndex % mAdapter.getNumAppsPerCol())
+                                < (mAdapter.getNumAppsPerCol() / 2) )
+                            page = rowIndex/ mAdapter.getNumAppsPerCol();
+                        else if ( (rowIndex % mAdapter.getNumAppsPerCol())
+                                > (mAdapter.getNumAppsPerCol() / 2) )
+                            page = rowIndex / mAdapter.getNumAppsPerCol() + 1;
+                        else if ( (rowIndex % mAdapter.getNumAppsPerCol())
+                                == (mAdapter.getNumAppsPerCol() / 2) ) {
+                            if(state.rowTopOffset < -state.itemHeight/2)
+                                page = rowIndex / mAdapter.getNumAppsPerCol();
+                            else
+                                page = rowIndex / mAdapter.getNumAppsPerCol() + 1;
+                        }
+                    }
+
+                    mAppsRecyclerView.smoothSnapToPage(page,
+                            mNumAppsPerRow * mAdapter.getNumAppsPerCol(), state);
+                }
+
+            }
+        });
         if (mItemDecoration != null) {
             mAppsRecyclerView.addItemDecoration(mItemDecoration);
         }

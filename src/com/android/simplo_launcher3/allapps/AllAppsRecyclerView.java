@@ -86,6 +86,12 @@ public class AllAppsRecyclerView extends BaseRecyclerView
                 R.dimen.all_apps_empty_search_bg_top_offset);
     }
 
+    public void smoothSnapToPage(int page, int numPerPage,
+                                 ScrollPositionState scrollPositionState) {
+        smoothSnapToPosition(numPerPage * page + 1,
+                scrollPositionState);
+    }
+
     /**
      * Sets the list of apps in this view, used to determine the fastscroll position.
      */
