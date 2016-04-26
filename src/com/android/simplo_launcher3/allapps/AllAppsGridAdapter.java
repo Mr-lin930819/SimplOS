@@ -424,11 +424,15 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
     }
 
     /**
-     * Sets the number of apps
+     * Sets the number of apps per column.
      * @param appsPerCol
      */
     public void setNumAppsPerCol(int appsPerCol) {
         mAppsPerCol = appsPerCol;
+    }
+
+    public int getNumAppsPerCol() {
+        return mAppsPerCol;
     }
 
     /**
